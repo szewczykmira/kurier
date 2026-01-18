@@ -21,3 +21,9 @@ or enable pre-commit
 ```shell
 pre-commit install
 ```
+
+# Running project
+
+```shell
+uv run ./manage.py runserver
+```
