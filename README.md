@@ -25,5 +25,6 @@ pre-commit install
 # Running project
 
 ```shell
+brew services start postgresql@18
 uv run ./manage.py runserver
 ```
